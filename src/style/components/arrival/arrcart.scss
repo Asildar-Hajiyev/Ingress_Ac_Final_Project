@@ -1,0 +1,59 @@
+.card{
+    .card_sec{
+        width: 220px;
+        margin: 35px 20px 35px 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+    
+        img{
+           width: 220px;
+           height: 330;
+        }
+        .card_star{
+            display: flex;
+        }
+        .card_p{
+            font-size: 18px;
+        }
+        a{
+            position: relative;
+            &:hover  .bag_icon{
+                display: block;
+            }
+
+            .bag_icon{
+                color: black;
+                position: absolute;
+                bottom: 260px;
+                left: 190px;
+                background-color: white;
+                width: 25px;
+                border-radius: 50%;
+                padding: 5px;
+                opacity: 0.8;
+                display: none;
+                &:hover {
+                    opacity: 1;
+                }
+                &:hover .button_secondary{
+                    display: block;
+                }
+              
+                
+            }
+            .button_secondary{
+                position: absolute;
+                bottom: 260px;
+                // left: 70px;
+                top: 10px;
+                display: none;
+
+            }
+           
+        }
+
+    }
+}
+

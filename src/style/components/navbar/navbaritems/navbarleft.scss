@@ -1,0 +1,33 @@
+.shop_category_left {
+    padding: 0px 15px;
+    position: relative;
+
+    .shop_category_left_a {
+        margin: 25px 20px;
+    }
+
+    .hmenu {
+        display: none;
+    }
+
+    &:hover .hmenu {
+        display: block;
+        position: absolute;
+        // z-index: 1;
+        top: 80px;
+    
+
+        li {
+            // margin: 5px;
+            background-color: #F7F7F7;
+            padding: 10px 55px 10px 20px;
+
+            a {
+                color: black;
+            }
+        }
+    }
+
+}
+
+

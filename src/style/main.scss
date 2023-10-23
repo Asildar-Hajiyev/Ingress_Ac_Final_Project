@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.paginate{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    li{
+        width: 30px;
+        height: 30px;
+        border: 1px solid black;
+        margin: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+//! Component
+
+//arrival
+@import "./components/arrival/newarrival.scss";
+@import "./components/arrival/arrcart.scss";
+
+//Navbar
+
+//NavbarItems
+@import "./components/navbar/navbaritems/navbarleft.scss";
+
+//Footer
+@import "./components/footer/footer.scss";
+
+//button
+@import "./components/button.scss";
+
+//! Pages
+
+@import "./pages/contact.scss";
+@import "./pages/about.scss";
+@import "./pages/testimonials.scss"

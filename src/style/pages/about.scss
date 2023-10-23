@@ -1,0 +1,54 @@
+// about card 
+
+.about {
+    background-color: #F7F7F7;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10rem;
+
+
+    }
+
+    .header_a {
+        display: flex;
+
+        .card_about {
+            width: 50%;
+            display: grid;
+            padding: 10%;
+
+            img {
+                width: 100%;
+            }
+
+            .about_n {
+                padding: 10px 0px;
+            }
+        }
+
+        .right_h_a {
+            width: 50%;
+            padding: 10%;
+            font-size: 22px;
+            display: grid;
+
+            p {
+                padding: 10% 0;
+            }
+
+            span {
+                font-size: 20px;
+            }
+        }
+        .corusel_1{
+            width: 100%;
+            
+        }
+    }
+
+}
+
+//

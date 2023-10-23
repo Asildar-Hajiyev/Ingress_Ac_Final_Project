@@ -1,0 +1,49 @@
+.awards{
+    text-align: center;
+}
+
+.the_phi{
+    width: 100%;
+    display: flex;
+    margin-left: 15%;
+    padding: 5%;
+    .the_p{
+        width: 40%;
+        margin: 0 20%;
+        p{
+            padding-bottom: 25px;
+            width: 90%;
+        }
+
+    }
+
+}
+
+.carts{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    .figure{
+        padding: 40px;
+        width: 50%;
+        .figcaption{
+            width: 100%;
+
+        }
+        .img_title{
+            display: flex;
+
+        
+        .imgpp{
+            border-radius: 50%;
+            padding: 10px 0px;       
+
+        }
+        .span{
+            font-size: 15px;   
+            margin-top: 23px; 
+            margin-left: 10px;
+        }
+    }
+    }
+}

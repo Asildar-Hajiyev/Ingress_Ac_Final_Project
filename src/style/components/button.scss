@@ -1,0 +1,62 @@
+.primary{
+    padding: 12px 25px;
+    border: 1px solid #26222F;
+    background-color: #FFFFFF;
+    margin:0px 8px ;
+    &:hover{
+        background-color: #26222F;
+        color: #FFFFFF;
+    }
+}
+
+.primary_nohover{
+    padding: 12px 25px;
+    background-color: #26222F;
+    color: #FFFFFF;
+    margin: 0px 8px;
+}
+
+.secondary{
+    padding: 6px 20px;
+    border-radius: 4px;
+    border: none;
+    background-color: #26222F;
+    color: #FFFFFF;
+    font-size: 14px;
+
+
+}
+.primary_contact{
+    padding: 12px 20px;
+    border: 1px solid #26222F;
+    background-color: #FFFFFF;
+    margin:20px 8px ;
+    width: 200px;
+    &:hover{
+        background-color: #26222F;
+        color: #FFFFFF;
+    }
+}
+
+.cart_primary{
+    padding: 12px 25px;
+    border: 1px solid #26222F;
+    background-color: #FFFFFF;
+    margin:0% 5% ;
+    width: 90%;
+    &:hover{
+        background-color: #26222F;
+        color: #FFFFFF;
+    }
+
+}
+
+.shipping{
+    padding: 2px 5px;
+    border: 1px solid #4BA539;
+    background-color: #FFFFFF;
+    color: #4BA539;
+    border-radius: 12px;
+    font-size: 12px;
+    margin: 5px;
+}
